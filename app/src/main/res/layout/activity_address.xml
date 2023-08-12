@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".address">
+    <ImageView
+        android:src="@drawable/address"
+        android:layout_marginLeft="@dimen/dim_100"
+        android:layout_width="@dimen/dim_200"
+        android:layout_height="@dimen/dim_150">
+
+    </ImageView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_200"
+        android:layout_marginLeft="@dimen/dim_50"
+        app:boxStrokeColor="#000000"
+        app:hintTextColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="@dimen/dim_300"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:hint="    Name"
+            android:textColorHighlight="#101010"
+            android:textColorLink="#000000">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/black"
+        android:text="ORDER"
+        android:layout_marginTop="@dimen/dim_600"
+        android:layout_marginLeft="@dimen/dim_170"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_300"
+        android:layout_marginLeft="@dimen/dim_50"
+        app:boxStrokeColor="#000000"
+        app:hintTextColor="@color/black">
+
+        <EditText
+            android:id="@+id/room"
+            android:layout_width="@dimen/dim_300"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:hint="    Room no.">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_400"
+        android:layout_marginLeft="@dimen/dim_50"
+        app:boxStrokeColor="#000000"
+        app:hintTextColor="@color/black">
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="@dimen/dim_300"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:hint="    Mobile no.">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_500"
+        android:layout_marginLeft="@dimen/dim_50"
+        app:boxStrokeColor="#000000"
+        app:hintTextColor="@color/black">
+
+        <EditText
+            android:id="@+id/ward"
+            android:layout_width="@dimen/dim_300"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:hint="    Ward(Comman/Attach)">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

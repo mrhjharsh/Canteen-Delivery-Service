@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dim_10"
+    android:background="@drawable/customborder2">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-6dp"></ImageView>
+
+    <TextView
+        android:layout_marginLeft="@dimen/dim_150"
+        android:layout_marginTop="@dimen/dim_10"
+        android:id="@+id/snack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PATTIES"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_20"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="5dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="@dimen/dim_50"
+        android:layout_marginLeft="@dimen/dim_150"
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14-/"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_20"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="46dp"></TextView>
+
+
+    <ImageButton
+        android:layout_marginTop="@dimen/dim_25"
+        android:layout_marginLeft="@dimen/dim_350"
+        android:id="@+id/heart"
+        android:layout_width="@dimen/dim_35"
+        android:layout_height="@dimen/dim_35"
+        android:src="@drawable/baseline_favorite_24"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="16dp">
+
+    </ImageButton>
+
+
+</RelativeLayout>
